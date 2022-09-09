@@ -8,12 +8,12 @@
     font-family: FontAwesome;
     font-style: normal;
     font-weight: 400;
-    src: url(../media/fonts/fontawesome-webfont.eot);
-    src: url(../media/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0) format("embedded-opentype"),
-        url(../media/fonts/fontawesome-webfont.woff2) format("woff2"),
-        url(../media/fonts/fontawesome-webfont.woff) format("woff"),
-        url(../media/fonts/fontawesome-webfont.ttf) format("truetype"),
-        url(../media/fonts/fontawesome-webfont.svg#fontawesomeregular) format("svg")
+    src: url(../assets/fonts/fontawesome-webfont.eot);
+    src: url(../assets/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0) format("embedded-opentype"),
+        url(../assets/fonts/fontawesome-webfont.woff2) format("woff2"),
+        url(../assets/fonts/fontawesome-webfont.woff) format("woff"),
+        url(../assets/fonts/fontawesome-webfont.ttf) format("truetype"),
+        url(../assets/fonts/fontawesome-webfont.svg#fontawesomeregular) format("svg")
 }
 
 .fa {
@@ -19401,11 +19401,11 @@ button:focus {
 }
 
 .rtl .home .bg {
-    background-image: url(../media/rtl-hero.jpg) !important
+    background-image: url(../assets/img/rtl-hero.jpg) !important
 }
 
 .rtl .main-img-mobile {
-    content: url(../media/rtl-mobile.jpg)
+    content: url(../assets/img/rtl-mobile.jpg)
 }
 
 #menu li.active a,
