@@ -1,3 +1,19 @@
+var Home = document.getElementById('tab:r0:0')
+var About = document.getElementById('tab:r0:1')
+var Portfolio = document.getElementById('tab:r0:2')
+var Contact = document.getElementById('tab:r0:3')
+var Blog = document.getElementById('tab:r0:4')
+
+var iconboxs = document.getElementsByClassName('icon-box')
+
+function select_menu(s) {
+  for(var i = 0; i < iconboxs.length; i++){
+    iconboxs[i].classList.remove('react-tabs__tab--selected')
+  }
+  document.getElementById(s).classList.add('react-tabs__tab--selected');
+  console.log(s);
+}
+
 !(function () {
   var e = {
       2789: function (e) {
