@@ -19401,11 +19401,11 @@ button:focus {
 }
 
 .rtl .home .bg {
-    background-image: url(../assets/img/rtl-hero.jpg) !important
+    background-image: url(../assets/img/home/rtl-hero.jpg) !important
 }
 
 .rtl .main-img-mobile {
-    content: url(../assets/img/rtl-mobile.jpg)
+    content: url(../assets/img/home/rtl-mobile.jpg)
 }
 
 #menu li.active a,
