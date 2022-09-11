@@ -1,17 +1,20 @@
-var Home = document.getElementById('tab:r0:0')
-var About = document.getElementById('tab:r0:1')
-var Portfolio = document.getElementById('tab:r0:2')
-var Contact = document.getElementById('tab:r0:3')
-var Blog = document.getElementById('tab:r0:4')
 
-var iconboxs = document.getElementsByClassName('icon-box')
+var iconBoxs = document.getElementsByClassName('icon-box')
+var tabPanelItems = document.getElementsByClassName('tab-panel-item')
 
-function select_menu(s) {
-  for(var i = 0; i < iconboxs.length; i++){
-    iconboxs[i].classList.remove('react-tabs__tab--selected')
+function select_menu(menu, content) {
+
+  for(var i = 0; i < iconBoxs.length; i++){
+    iconBoxs[i].classList.remove('react-tabs__tab--selected')
   }
-  document.getElementById(s).classList.add('react-tabs__tab--selected');
-  console.log(s);
+  document.getElementById(menu).classList.add('react-tabs__tab--selected');
+  
+  for(var i = 0; i < tabPanelItems.length; i++){
+    tabPanelItems[i].classList.remove('react-tabs__tab-panel--selected')
+    tabPanelItems[i].classList.add('hidden')
+  }
+  document.getElementsByClassName(content)[0].classList.add('react-tabs__tab-panel--selected');
+  document.getElementsByClassName(content)[0].classList.remove('hidden');
 }
 
 !(function () {
