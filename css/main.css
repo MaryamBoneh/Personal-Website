@@ -15,6 +15,12 @@
         url(../assets/fonts/fontawesome-webfont.ttf) format("truetype"),
         url(../assets/fonts/fontawesome-webfont.svg#fontawesomeregular) format("svg")
 }
+@font-face {
+    font-family: iransans;
+    font-style: normal;
+    font-weight: 400;
+    src: url(../assets/fonts/IRANSansWeb_Medium.eot);
+}
 
 .fa {
     text-rendering: auto;
@@ -15519,7 +15525,7 @@ body.light .home .bg {
 }
 
 .modal_portfolio .modal__content h2 {
-    color: #ffb400;
+    color: #7FB77E;
     color: var(--main-primary-color);
     font-size: 33px;
     font-weight: 700;
@@ -15544,7 +15550,7 @@ body.light .home .bg {
 }
 
 .modal_portfolio .modal__details .preview-link {
-    color: #ffb400;
+    color: #7FB77E;
     color: var(--main-primary-color);
     font-size: 15px;
     font-weight: 600;
@@ -15594,7 +15600,7 @@ body.light .home .bg {
 }
 
 .modal_portfolio .slick-slider .slick-dots button:before {
-    border: 1px solid #ffb400;
+    border: 1px solid #97D2EC;
     border: 1px solid var(--main-primary-color);
     border-radius: 50%;
     content: "";
@@ -15605,7 +15611,7 @@ body.light .home .bg {
 }
 
 .modal_portfolio .slick-slider .slick-dots button:after {
-    background: #ffb400;
+    background: #7FB77E;
     background: var(--main-primary-color);
     border-radius: inherit;
     content: "";
@@ -15703,6 +15709,17 @@ body.light .home .bg {
     position: static
 }
 
+.react-tabs::before{
+    position: absolute;
+    content: "";
+    background: rgba(0, 0, 0, 0.7);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 0;
+}
+
 .portfolio-main .react-tabs__tab-list {
     align-items: center;
     border-bottom: none;
@@ -15773,7 +15790,7 @@ body.light .home .bg {
 
 .portfolio-main .react-tabs .tab-content h3 {
     align-items: center;
-    background-color: #ffb400;
+    background-color: #7FB77E;
     background-color: var(--main-primary-color);
     border-radius: .5rem;
     color: #fff;
@@ -15817,7 +15834,7 @@ body.light .home .bg {
 
 body.light .portfolio-main .react-tabs .tab-content div,
 body.light .portfolio-main .react-tabs .tab-content h3 {
-    background: #ffb400;
+    background: #7FB77E;
     background: var(--main-primary-color)
 }
 
@@ -15827,7 +15844,7 @@ body.light .portfolio-main.portfolio-main .react-tabs__tab {
 
 body.light .portfolio-main .portfolio-tab-list li.react-tabs__tab--selected,
 body.light .portfolio-main .portfolio-tab-list li:hover {
-    color: #ffb400;
+    color: #7FB77E;
     color: var(--main-primary-color)
 }
 
@@ -15957,7 +15974,7 @@ body {
 }
 
 .banner h1 {
-    border: 1px solid #ffb400;
+    border: 1px solid #7FB77E;
     border: 1px solid var(--main-primary-color);
     color: #fff;
     display: inline-block;
@@ -15999,7 +16016,7 @@ body {
 }
 
 .demo .btn:hover {
-    background-color: #ffb400 !important
+    background-color: #7FB77E !important
 }
 
 .demo {
@@ -16067,7 +16084,7 @@ h2 {
 
 .footer_copyright .heart,
 .footer_copyright a {
-    color: #ffb400;
+    color: #7FB77E;
     color: var(--main-primary-color);
     text-decoration: none
 }
@@ -16151,12 +16168,12 @@ h2 {
 }
 
 .go_purchase h3 .theme-color {
-    color: #ffb400;
+    color: #7FB77E;
     color: var(--main-primary-color)
 }
 
 .go_purchase .button {
-    border: 1px solid #ffb400;
+    border: 1px solid #7FB77E;
     border: 1px solid var(--main-primary-color)
 }
 
@@ -17043,7 +17060,7 @@ footer {
 }
 
 .slick-dots li button:before {
-    border: 1px solid #ffb400;
+    border: 1px solid #7FB77E;
     border: 1px solid var(--main-primary-color);
     border-radius: 50%;
     font-size: 0;
@@ -17059,7 +17076,7 @@ footer {
 }
 
 .slick-dots li button:after {
-    background: #ffb400;
+    background: #7FB77E;
     background: var(--main-primary-color);
     border-radius: inherit;
     left: 0;
@@ -17168,7 +17185,7 @@ html {
 }
 
 :root {
-    --main-primary-color: #ffb400
+    --main-primary-color: #7FB77E
 }
 
 body {
@@ -17186,11 +17203,11 @@ body {
 
 .poppins-font,
 body {
-    font-family: Poppins, sans-serif
+    font-family: iransans
 }
 
 .open-sans-font {
-    font-family: Open Sans, sans-serif
+    font-family: iransans !important;
 }
 
 img {
@@ -17318,7 +17335,7 @@ body.light .contact .contactform input[type=email]:focus,
 body.light .contact .contactform input[type=text]:focus,
 body.light .contact .contactform textarea:focus {
     background-color: #fff;
-    border: 1px solid #ffb400;
+    border: 1px solid #7FB77E;
     border: 1px solid var(--main-primary-color);
     color: #666
 }
@@ -17329,7 +17346,7 @@ body.light .contact ul.social li a {
 }
 
 body.light .contact ul.social li a:hover {
-    background: #ffb400;
+    background: #7FB77E;
     background: var(--main-primary-color);
     color: #fff
 }
@@ -17353,7 +17370,7 @@ body.light .blog .post-content .entry-header h3 {
 }
 
 body.light .blog .post-container:hover h3 {
-    color: #ffb400;
+    color: #7FB77E;
     color: var(--main-primary-color)
 }
 
@@ -17381,7 +17398,7 @@ body.light .header ul.icon-menu li.icon-box {
 
 body.light .header ul.icon-menu li.icon-box.react-tabs__tab--selected,
 body.light .header ul.icon-menu li.icon-box:hover {
-    background: #ffb400;
+    background: #7FB77E;
     background: var(--main-primary-color)
 }
 
@@ -17796,11 +17813,11 @@ body.light .header ul.icon-menu li.icon-box:hover i {
 
 .home .home-details>div {
     margin: 0 auto;
-    max-width: 550px
+    max-width: 580px
 }
 
 .home .home-details h1 {
-    font-size: 51px;
+    font-size: 36px;
     font-weight: 700;
     line-height: 62px;
     margin: 18px 0 10px;
@@ -18400,7 +18417,7 @@ body.light .contact .custom-span-contact a {
 }
 
 .blog .post-container:hover h3 {
-    color: #ffb400;
+    color: #7FB77E;
     color: var(--main-primary-color)
 }
 
@@ -18824,7 +18841,7 @@ body.light .contact .custom-span-contact a {
     }
 
     .home .home-details h1 {
-        font-size: 29px;
+        font-size: 24px;
         line-height: 39px;
         margin: 18px 0 13px
     }
@@ -18950,7 +18967,8 @@ body.light .contact .custom-span-contact a {
 }
 
 .tab-panel_list {
-    overflow: hidden
+    overflow: hidden;
+    z-index: 2;
 }
 
 @media screen and (max-width:991px) {
@@ -19073,7 +19091,7 @@ button:focus {
 .portfolio .slideshow a,
 .portfolio .slideshow figcaption h3,
 .title-section h1 span {
-    color: #ffb400;
+    color: #7FB77E;
     color: var(--main-primary-color)
 }
 
@@ -19129,7 +19147,7 @@ button:focus {
 .box_inner.about .c100.p98 .fill,
 .box_inner.about .c100.p99 .fill,
 .box_inner.about .pie {
-    border: .08em solid #ffb400;
+    border: .08em solid #7FB77E;
     border: .08em solid var(--main-primary-color)
 }
 
@@ -19157,7 +19175,7 @@ button:focus {
 
 .portfolio-tab-list li.react-tabs__tab--selected,
 .portfolio-tab-list li:hover {
-    color: #ffb400;
+    color: #7FB77E;
     color: var(--main-primary-color)
 }
 
@@ -19203,7 +19221,7 @@ button:focus {
 }
 
 .portfolio.professional .grid figure:before {
-    background: #ffb400;
+    background: #7FB77E;
     background: var(--main-primary-color);
     content: "";
     height: 100%;
@@ -19401,7 +19419,7 @@ button:focus {
 }
 
 .rtl .home .bg {
-    background-image: url(../assets/img/home/rtl-hero.jpg) !important
+    background-image: url(../assets/img/home/mb.jpg) !important
 }
 
 .rtl .main-img-mobile {
@@ -19419,7 +19437,7 @@ button:focus {
 .portfolio .slideshow a,
 .title-section h1 span,
 body.light #menu li.active a {
-    color: #ffb400;
+    color: #7FB77E;
     color: var(--main-primary-color)
 }
 
@@ -19442,7 +19460,7 @@ body.light #menu li.active a {
 body.light.blog .page-item.active .page-link,
 body.light.blog .page-link:hover,
 body.light.contact ul.social li a:hover {
-    background-color: #ffb400;
+    background-color: #7FB77E;
     background-color: var(--main-primary-color)
 }
 
@@ -19452,7 +19470,7 @@ body.light.contact ul.social li a:hover {
     .header ul.icon-menu li.icon-box:hover,
     body.light .header ul.icon-menu li.icon-box.react-tabs__tab--selected,
     body.light .header ul.icon-menu li.icon-box:hover {
-        background: #ffb400 !important;
+        background: #7FB77E !important;
         background: var(--main-primary-color) !important
     }
 }
@@ -19468,12 +19486,12 @@ body.light.blog .page-link:hover,
 body.light.contact .contactform input[type=email]:focus,
 body.light.contact .contactform input[type=text]:focus,
 body.light.contact .contactform textarea:focus {
-    border: 1px solid #ffb400;
+    border: 1px solid #7FB77E;
     border: 1px solid var(--main-primary-color)
 }
 
 .blog .post-thumb {
-    border-bottom: 5px solid #ffb400;
+    border-bottom: 5px solid #7FB77E;
     border-bottom: 5px solid var(--main-primary-color)
 }
 
@@ -19529,7 +19547,7 @@ body.light.contact .contactform textarea:focus {
 .c100.p98 .fill,
 .c100.p99 .fill,
 .pie {
-    border: .08em solid #ffb400;
+    border: .08em solid #7FB77E;
     border: .08em solid var(--main-primary-color)
 }
 
