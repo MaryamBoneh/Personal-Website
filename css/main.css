@@ -22,6 +22,13 @@
     src: url(../assets/fonts/IRANSansWeb_Medium.eot);
 }
 
+@font-face {
+    font-family: iphone;
+    font-style: normal;
+    font-weight: 400;
+    src: url(../assets/fonts/SF-Arabic.ttf);
+}
+
 .fa {
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
@@ -15525,7 +15532,7 @@ body.light .home .bg {
 }
 
 .modal_portfolio .modal__content h2 {
-    color: #7FB77E;
+    color: #54B435;
     color: var(--main-primary-color);
     font-size: 33px;
     font-weight: 700;
@@ -15550,7 +15557,7 @@ body.light .home .bg {
 }
 
 .modal_portfolio .modal__details .preview-link {
-    color: #7FB77E;
+    color: #54B435;
     color: var(--main-primary-color);
     font-size: 15px;
     font-weight: 600;
@@ -15611,7 +15618,7 @@ body.light .home .bg {
 }
 
 .modal_portfolio .slick-slider .slick-dots button:after {
-    background: #7FB77E;
+    background: #54B435;
     background: var(--main-primary-color);
     border-radius: inherit;
     content: "";
@@ -15790,7 +15797,7 @@ body.light .home .bg {
 
 .portfolio-main .react-tabs .tab-content h3 {
     align-items: center;
-    background-color: #7FB77E;
+    background-color: #54B435;
     background-color: var(--main-primary-color);
     border-radius: .5rem;
     color: #fff;
@@ -15834,7 +15841,7 @@ body.light .home .bg {
 
 body.light .portfolio-main .react-tabs .tab-content div,
 body.light .portfolio-main .react-tabs .tab-content h3 {
-    background: #7FB77E;
+    background: #54B435;
     background: var(--main-primary-color)
 }
 
@@ -15844,7 +15851,7 @@ body.light .portfolio-main.portfolio-main .react-tabs__tab {
 
 body.light .portfolio-main .portfolio-tab-list li.react-tabs__tab--selected,
 body.light .portfolio-main .portfolio-tab-list li:hover {
-    color: #7FB77E;
+    color: #54B435;
     color: var(--main-primary-color)
 }
 
@@ -15974,7 +15981,7 @@ body {
 }
 
 .banner h1 {
-    border: 1px solid #7FB77E;
+    border: 1px solid #54B435;
     border: 1px solid var(--main-primary-color);
     color: #fff;
     display: inline-block;
@@ -16016,7 +16023,7 @@ body {
 }
 
 .demo .btn:hover {
-    background-color: #7FB77E !important
+    background-color: #54B435 !important
 }
 
 .demo {
@@ -16084,7 +16091,7 @@ h2 {
 
 .footer_copyright .heart,
 .footer_copyright a {
-    color: #7FB77E;
+    color: #54B435;
     color: var(--main-primary-color);
     text-decoration: none
 }
@@ -16168,12 +16175,12 @@ h2 {
 }
 
 .go_purchase h3 .theme-color {
-    color: #7FB77E;
+    color: #54B435;
     color: var(--main-primary-color)
 }
 
 .go_purchase .button {
-    border: 1px solid #7FB77E;
+    border: 1px solid #54B435;
     border: 1px solid var(--main-primary-color)
 }
 
@@ -17060,7 +17067,7 @@ footer {
 }
 
 .slick-dots li button:before {
-    border: 1px solid #7FB77E;
+    border: 1px solid #54B435;
     border: 1px solid var(--main-primary-color);
     border-radius: 50%;
     font-size: 0;
@@ -17076,7 +17083,7 @@ footer {
 }
 
 .slick-dots li button:after {
-    background: #7FB77E;
+    background: #54B435;
     background: var(--main-primary-color);
     border-radius: inherit;
     left: 0;
@@ -17185,7 +17192,7 @@ html {
 }
 
 :root {
-    --main-primary-color: #7FB77E
+    --main-primary-color: #54B435
 }
 
 body {
@@ -17203,11 +17210,11 @@ body {
 
 .poppins-font,
 body {
-    font-family: iransans
+    font-family: iphone
 }
 
 .open-sans-font {
-    font-family: iransans !important;
+    font-family: iphone !important;
 }
 
 img {
@@ -17335,7 +17342,7 @@ body.light .contact .contactform input[type=email]:focus,
 body.light .contact .contactform input[type=text]:focus,
 body.light .contact .contactform textarea:focus {
     background-color: #fff;
-    border: 1px solid #7FB77E;
+    border: 1px solid #54B435;
     border: 1px solid var(--main-primary-color);
     color: #666
 }
@@ -17346,7 +17353,7 @@ body.light .contact ul.social li a {
 }
 
 body.light .contact ul.social li a:hover {
-    background: #7FB77E;
+    background: #54B435;
     background: var(--main-primary-color);
     color: #fff
 }
@@ -17370,7 +17377,7 @@ body.light .blog .post-content .entry-header h3 {
 }
 
 body.light .blog .post-container:hover h3 {
-    color: #7FB77E;
+    color: #54B435;
     color: var(--main-primary-color)
 }
 
@@ -17398,7 +17405,7 @@ body.light .header ul.icon-menu li.icon-box {
 
 body.light .header ul.icon-menu li.icon-box.react-tabs__tab--selected,
 body.light .header ul.icon-menu li.icon-box:hover {
-    background: #7FB77E;
+    background: #54B435;
     background: var(--main-primary-color)
 }
 
@@ -17868,7 +17875,7 @@ body.light .header ul.icon-menu li.icon-box:hover i {
 }
 
 .about .box-stats {
-    border: 1px solid #252525;
+    border: 1px solid #ddd;
     border-radius: 5px;
     padding: 20px 30px 25px 40px
 }
@@ -18417,7 +18424,7 @@ body.light .contact .custom-span-contact a {
 }
 
 .blog .post-container:hover h3 {
-    color: #7FB77E;
+    color: #54B435;
     color: var(--main-primary-color)
 }
 
@@ -19091,7 +19098,7 @@ button:focus {
 .portfolio .slideshow a,
 .portfolio .slideshow figcaption h3,
 .title-section h1 span {
-    color: #7FB77E;
+    color: #54B435;
     color: var(--main-primary-color)
 }
 
@@ -19147,7 +19154,7 @@ button:focus {
 .box_inner.about .c100.p98 .fill,
 .box_inner.about .c100.p99 .fill,
 .box_inner.about .pie {
-    border: .08em solid #7FB77E;
+    border: .08em solid #54B435;
     border: .08em solid var(--main-primary-color)
 }
 
@@ -19175,7 +19182,7 @@ button:focus {
 
 .portfolio-tab-list li.react-tabs__tab--selected,
 .portfolio-tab-list li:hover {
-    color: #7FB77E;
+    color: #54B435;
     color: var(--main-primary-color)
 }
 
@@ -19221,7 +19228,7 @@ button:focus {
 }
 
 .portfolio.professional .grid figure:before {
-    background: #7FB77E;
+    background: #54B435;
     background: var(--main-primary-color);
     content: "";
     height: 100%;
@@ -19437,7 +19444,7 @@ button:focus {
 .portfolio .slideshow a,
 .title-section h1 span,
 body.light #menu li.active a {
-    color: #7FB77E;
+    color: #54B435;
     color: var(--main-primary-color)
 }
 
@@ -19460,7 +19467,7 @@ body.light #menu li.active a {
 body.light.blog .page-item.active .page-link,
 body.light.blog .page-link:hover,
 body.light.contact ul.social li a:hover {
-    background-color: #7FB77E;
+    background-color: #54B435;
     background-color: var(--main-primary-color)
 }
 
@@ -19470,7 +19477,7 @@ body.light.contact ul.social li a:hover {
     .header ul.icon-menu li.icon-box:hover,
     body.light .header ul.icon-menu li.icon-box.react-tabs__tab--selected,
     body.light .header ul.icon-menu li.icon-box:hover {
-        background: #7FB77E !important;
+        background: #54B435 !important;
         background: var(--main-primary-color) !important
     }
 }
@@ -19486,12 +19493,12 @@ body.light.blog .page-link:hover,
 body.light.contact .contactform input[type=email]:focus,
 body.light.contact .contactform input[type=text]:focus,
 body.light.contact .contactform textarea:focus {
-    border: 1px solid #7FB77E;
+    border: 1px solid #54B435;
     border: 1px solid var(--main-primary-color)
 }
 
 .blog .post-thumb {
-    border-bottom: 5px solid #7FB77E;
+    border-bottom: 5px solid #54B435;
     border-bottom: 5px solid var(--main-primary-color)
 }
 
@@ -19547,7 +19554,7 @@ body.light.contact .contactform textarea:focus {
 .c100.p98 .fill,
 .c100.p99 .fill,
 .pie {
-    border: .08em solid #7FB77E;
+    border: .08em solid #54B435;
     border: .08em solid var(--main-primary-color)
 }
 
